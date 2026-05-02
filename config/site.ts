@@ -1,5 +1,5 @@
 export const siteConfig = {
-  name: 'aadi.is-dev',
+  name: 'varni.is-dev',
   url: 'https://aadi.is-a.dev',
   description: 'Portfolio of Patel Varnikumar, Full-Stack Web Developer, System Design Learner & ML Enthusiast.',
   keywords: [
