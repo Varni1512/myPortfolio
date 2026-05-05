@@ -1,198 +1,316 @@
 export const projects = [
   {
-    title: "Nike Reimagined | Modern Redesign Concept",
-    slug: "nike-reimagined",
+    title: "Recruit Sphere - Hiring System",
+    slug: "recruit-sphere",
     tagline:
-      "A sleek and modern redesign of Nike’s official web experience built with React and Tailwind CSS.",
+      "A scalable hiring and workflow management platform for efficient recruitment operations.",
     overview:
-      "Nike Reimagined is a creative redesign project focused on delivering a refined, high-performance web experience inspired by Nike’s global brand identity. It highlights a clean, minimal UI with smooth transitions, responsive layouts, and optimized performance across devices. The project demonstrates a balance of aesthetics and functionality for a real-world eCommerce feel.",
+      "Recruit Sphere streamlines hiring workflows with candidate tracking, automation, and dashboards. It improves recruitment efficiency through structured processes and centralized management.",
     features: [
-      "Minimalist and modern user interface design",
-      "Fully responsive layouts optimized for all devices",
-      "Smooth page transitions and animations with Framer Motion",
-      "Optimized build process with Vite for fast loading",
-      "Deployed on Vercel for production-grade performance",
+      "Candidate tracking",
+      "Workflow automation",
+      "Dashboard system",
     ],
-    techStack: [
-      "React.js",
-      "Tailwind CSS",
-      "Vite",
-      "Framer Motion",
-      "Vercel",
-    ],
+    techStack: ["React", "MongoDB", "Node.js", "Express.js", "Tailwind CSS"],
     challenges: [
-      "Maintaining brand consistency while reimagining Nike’s design language.",
-      "Achieving smooth animations without affecting performance.",
-      "Ensuring pixel-perfect responsiveness across devices.",
-      "Optimizing load times for a better user experience.",
+      "Designing scalable workflow logic",
     ],
     learnings: [
-      "Mastered efficient UI composition with React and Tailwind CSS.",
-      "Improved understanding of animation principles using Framer Motion.",
-      "Enhanced deployment workflow using Vercel and Vite integration.",
-      "Developed better practices for responsive and scalable frontend design.",
+      "Recruitment system architecture",
     ],
-    feedback: false,
+    feedback: true,
     links: {
-      live: "https://nike-reimagined-mu.vercel.app/",
-      github: "https://github.com/adityadomle/nike-reimagined",
+      live: "https://recruit-sphere.vercel.app/",
+      github: "https://github.com/Varni1512/Recruit_Sphere",
     },
   },
 
   {
-    title: "Portfolio | Aditya Domle",
-    slug: "portfolio",
+    title: "KisanHub - Smart Agriculture Marketplace",
+    slug: "kisanhub",
     tagline:
-      "A dynamic portfolio showcasing my projects, skills, and contributions using the latest web technologies.",
+      "A MERN-based platform enabling farmers, buyers, and vendors to connect directly.",
     overview:
-      "My personal portfolio is built to highlight my journey as a developer. It integrates advanced features like profile views tracking, a love count mechanism, and server-side actions for seamless interactivity and performance.",
+      "KisanHub eliminates middlemen by enabling direct crop selling and communication. It features role-based dashboards, real-time chat, and secure transactions for better farmer profitability.",
     features: [
-      "API to track and display profile views in real-time.",
-      "Love count feature to allow visitors to express appreciation for the work.",
-      "Implemented server actions using the latest Next.js features.",
-      "Dynamic project listing with slug-based routing for detailed pages.",
-      "Mobile-responsive and optimized for all devices.",
-      "Integration with MongoDB using Mongoose for efficient data management.",
+      "Role-based dashboards for users",
+      "Direct crop selling marketplace",
+      "Medicine shop integration",
+      "Real-time chat system",
+      "Secure authentication",
     ],
-    techStack: [
-      "Next.js",
-      "SadCn/UI",
-      "MongoDB",
-      "Tailwind CSS",
-      "Radix UI",
-      "TypeScript",
-    ],
+    techStack: ["React", "MongoDB", "Node.js", "Express.js", "Tailwind CSS"],
     challenges: [
-      "Implementing real-time tracking for profile views efficiently.",
-      "Designing and integrating a scalable database schema with Mongoose.",
-      "Utilizing server actions for seamless and performant interactions.",
-      "Ensuring cross-browser and device compatibility for UI components.",
+      "Designing scalable role-based system",
+      "Implementing real-time communication",
+      "Managing complex backend APIs",
     ],
     learnings: [
-      "Deepened knowledge of Next.js server actions and their use cases.",
-      "Gained experience in designing interactive UI components.",
-      "Enhanced understanding of MongoDB operations and ORM with Mongoose.",
-      "Improved ability to optimize performance for web applications.",
+      "Full MERN stack architecture",
+      "Authentication & authorization handling",
+      "Building real-time applications",
     ],
     feedback: true,
     links: {
-      live: "https://aadi.is-a.dev",
-      github: "https://topmate.io/aditya_domle/1773422",
+      live: "https://kisanhub.vercel.app/",
+      github: "https://github.com/Varni1512/KisanHub",
     },
   },
+
   {
-    title: "News Hub | Real-Time News Platform",
-    slug: "news-hub",
+    title: "Macbook 3D Website",
+    slug: "macbook-3d",
     tagline:
-      "A real-time news platform delivering the latest headlines across various categories using the News API.",
+      "An immersive Apple-style 3D product showcase with smooth animations and interactions.",
     overview:
-      "News Hub is a responsive and dynamic web application designed to provide users with up-to-date news from India and around the world. Built with React and TypeScript, the platform integrates the News API to fetch real-time stories, organized into categories like technology, business, sports, and entertainment. The clean UI ensures a smooth reading experience, while the optimized frontend guarantees fast performance.",
+      "A visually rich 3D website built with interactive models and scroll animations. It delivers a premium product experience using modern UI design and performance optimization.",
     features: [
-      "Real-time news updates fetched from the News API.",
-      "Categorized news sections for better content navigation.",
-      "Responsive design for an optimal viewing experience on all devices.",
-      "Built with Vite for fast development and performance optimization.",
-      "Clean and accessible UI components powered by shadcn/ui and Tailwind CSS.",
+      "Interactive 3D models using Three.js",
+      "Scroll-based animations with GSAP",
+      "Pinned sections for storytelling UI",
+      "Smooth transitions and motion effects",
+      "Fully responsive design",
     ],
-    techStack: [
-      "React",
-      "TypeScript",
-      "Tailwind CSS",
-      "Vite",
-      "shadcn-ui",
-    ],
+    techStack: ["React", "Three.js", "GSAP", "Tailwind CSS"],
     challenges: [
-      "Integrating and managing dynamic data from the News API.",
-      "Designing a clean UI to handle real-time content updates efficiently.",
-      "Optimizing performance and build times using Vite.",
-      "Ensuring responsiveness and accessibility across devices.",
+      "Handling performance issues with 3D rendering",
+      "Synchronizing scroll animations with GSAP",
+      "Maintaining responsiveness across devices",
     ],
     learnings: [
-      "Improved understanding of working with external APIs in React applications.",
-      "Enhanced experience in using TypeScript for type-safe development.",
-      "Learned to optimize frontend builds using Vite and modular UI design.",
-      "Developed better state management practices for dynamic data handling.",
+      "Deep understanding of Three.js rendering pipeline",
+      "Advanced animation handling using GSAP",
+      "Improved UI/UX design for product storytelling",
     ],
     feedback: true,
     links: {
-      live: "https://news-hub-seven-chi.vercel.app/",
-      github: "https://github.com/adityadomle/news-hub",
+      live: "https://macbook-sigma.vercel.app/",
+      github: "https://github.com/Varni1512/Macbook",
     },
   },
+
   {
-    title: "Freshmart Store | Modern Grocery Web App",
-    slug: "freshmart-store",
+    title: "CompileVerse - AI Code Compiler",
+    slug: "compileverse",
     tagline:
-      "A clean, modern, and responsive grocery store web app built with React, Vite, Redux, and Tailwind CSS.",
+      "An AI-powered online compiler supporting multiple languages with smart code analysis.",
     overview:
-      "Freshmart Store is a modern grocery shopping platform designed to offer users a seamless and visually appealing experience. Built using React and Vite, it focuses on performance and smooth navigation. Redux ensures efficient state management for cart operations and product handling, while Tailwind CSS provides a clean and responsive interface optimized for all devices.",
+      "CompileVerse enables real-time code execution with AI-driven review and insights. It enhances coding efficiency through intelligent feedback and integrated development tools.",
     features: [
-      "Modern and responsive UI optimized for all screen sizes.",
-      "Smooth routing and navigation for an app-like experience.",
-      "State management using Redux for efficient cart and product updates.",
-      "Fast development and performance optimization powered by Vite.",
-      "Clean design and user-friendly layout for better usability.",
+      "Multi-language compiler (C++, Java, Python)",
+      "Monaco Editor integration",
+      "AI code review system",
+      "Complexity analysis",
+      "Real-time output",
     ],
-    techStack: [
-      "React",
-      "Vite",
-      "Redux",
-      "Tailwind CSS",
-    ],
+    techStack: ["React", "Node.js", "Express", "Monaco Editor", "Gemini API"],
     challenges: [
-      "Implementing scalable state management with Redux.",
-      "Ensuring responsive and consistent UI across devices.",
-      "Optimizing performance and build speed using Vite.",
-      "Designing a smooth and intuitive navigation flow.",
+      "Handling secure code execution",
+      "Integrating AI-based analysis",
+      "Managing backend execution environment",
     ],
     learnings: [
-      "Enhanced understanding of Redux for managing global state efficiently.",
-      "Improved skills in responsive UI design using Tailwind CSS.",
-      "Learned performance tuning techniques with Vite.",
-      "Gained experience in creating scalable and maintainable frontend structures.",
+      "Working with compilers & execution APIs",
+      "AI integration in developer tools",
+      "Editor integrations (Monaco)",
     ],
     feedback: true,
     links: {
-      live: "https://freshmart-store.vercel.app",
-      github: "https://github.com/adityadomle/freshmart-store",
+      live: "https://online-compiler-khaki.vercel.app/",
+      github: "https://github.com/Varni1512/OC-frontend",
     },
   },
+
   {
-    title: "GitHub Profile Viewer | Instant GitHub Insights",
-    slug: "github-profile-viewer",
+    title: "MediTalk - AI Healthcare Platform",
+    slug: "meditalk",
     tagline:
-      "An interactive web app to instantly view GitHub profiles with clean UI built using HTML, CSS, and JavaScript.",
+      "An AI-powered healthcare platform offering voice consultation and smart diagnosis features.",
     overview:
-      "GitHub Profile Viewer allows users to instantly fetch and view detailed GitHub profiles using the GitHub REST API. The app displays essential user information including profile picture, name, bio, followers, repositories, and more. With a responsive and minimalist interface, it offers a smooth experience for exploring any GitHub account directly from the browser.",
+      "MediTalk provides real-time voice consultations with AI-based symptom analysis. It ensures accessible healthcare support with automated prescriptions and continuous availability.",
     features: [
-      "Instantly search and view any GitHub user's profile.",
-      "Displays profile picture, username, bio, followers, and repositories.",
-      "Responsive and clean user interface for better readability.",
-      "Utilizes GitHub REST API for fetching real-time profile data.",
-      "Lightweight structure ensuring fast performance and accessibility.",
+      "Voice-based consultation system",
+      "AI symptom analysis",
+      "Automated prescription generation",
+      "24/7 accessibility",
     ],
-    techStack: [
-      "HTML",
-      "CSS",
-      "JavaScript",
-      "GitHub API",
-    ],
+    techStack: ["Next.js", "React", "Gemini API", "Vapi API", "Assembly AI"],
     challenges: [
-      "Fetching and managing API data efficiently with JavaScript.",
-      "Designing a clean, minimal, and responsive interface.",
-      "Handling errors for invalid or non-existent GitHub users.",
-      "Ensuring smooth and fast data rendering without frameworks.",
+      "Handling real-time voice processing",
+      "Ensuring accuracy in AI predictions",
+      "Managing API integrations",
     ],
     learnings: [
-      "Strengthened understanding of API integration using JavaScript.",
-      "Improved skills in building responsive layouts with pure CSS.",
-      "Learned effective DOM manipulation and async handling.",
-      "Enhanced ability to design lightweight, framework-free web apps.",
+      "Voice AI integration",
+      "Healthcare AI system design",
+      "Multi-API orchestration",
     ],
     feedback: true,
     links: {
-      live: "https://adityadomle.github.io/GitHub-Profile-Viewer/",
-      github: "https://github.com/adityadomle/GitHub-Profile-Viewer",
+      live: "https://swasthyasathi.vercel.app/",
+      github: "https://github.com/Varni1512/SwasthyaSathi",
+    },
+  },
+
+  {
+    title: "PlacementPrep - Study Platform",
+    slug: "placementprep",
+    tagline:
+      "A comprehensive platform for placement preparation with resources and structured learning tools.",
+    overview:
+      "PlacementPrep offers notes, coding questions, quizzes, and interview preparation. It helps students organize learning efficiently with structured resources and guided preparation.",
+    features: [
+      "Authentication system",
+      "Study notes & interview prep",
+      "Coding questions",
+      "Resume templates",
+      "Aptitude quizzes",
+    ],
+    techStack: ["React", "Firebase", "Node.js", "Tailwind CSS"],
+    challenges: [
+      "Handling large content structure",
+      "Designing scalable UI",
+    ],
+    learnings: [
+      "Firebase integration",
+      "Building educational platforms",
+    ],
+    feedback: true,
+    links: {
+      live: "https://placement-prep-varni.vercel.app/",
+      github: "https://github.com/Varni1512/PlacementPrep",
+    },
+  },
+
+  {
+    title: "N-Queens Visualizer",
+    slug: "n-queens",
+    tagline:
+      "An interactive visualization tool demonstrating backtracking algorithm for solving N-Queens problem.",
+    overview:
+      "This tool visualizes the N-Queens problem using step-by-step backtracking. It helps users understand recursion and constraint solving through dynamic board interactions.",
+    features: [
+      "Step-by-step visualization",
+      "Dynamic board size",
+      "Backtracking explanation",
+    ],
+    techStack: ["HTML", "CSS", "JavaScript"],
+    challenges: [
+      "Visualizing recursive backtracking",
+    ],
+    learnings: [
+      "Deep understanding of recursion",
+      "Algorithm visualization",
+    ],
+    feedback: true,
+    links: {
+      live: "https://varni1512.github.io/N-queens-visualiser/",
+      github: "https://github.com/Varni1512/N-queens-visualiser",
+    },
+  },
+
+  {
+    title: "Tree Visualizer",
+    slug: "tree-visualizer",
+    tagline:
+      "An interactive tool to visualize tree structures and traversal algorithms dynamically.",
+    overview:
+      "Tree Visualizer demonstrates binary trees, BSTs, and AVL structures visually. It simplifies learning of traversal algorithms through interactive and graphical representations.",
+    features: [
+      "Tree creation and traversal",
+      "BST & AVL visualization",
+      "Interactive UI",
+    ],
+    techStack: ["HTML", "CSS", "JavaScript"],
+    challenges: [
+      "Rendering dynamic tree structures",
+    ],
+    learnings: [
+      "Tree data structures",
+      "Visualization logic",
+    ],
+    feedback: true,
+    links: {
+      live: "https://varni1512.github.io/Tree-Visualizer/",
+      github: "https://github.com/Varni1512/Tree-Visualizer",
+    },
+  },
+
+  {
+    title: "Sudoku Solver",
+    slug: "sudoku-solver",
+    tagline:
+      "A backtracking-based Sudoku solver with interactive interface and dynamic solving visualization.",
+    overview:
+      "Sudoku Solver uses backtracking to solve puzzles efficiently in real time. It allows users to input grids and observe algorithmic solving step-by-step.",
+    features: [
+      "Auto solve Sudoku",
+      "Manual input support",
+      "Backtracking algorithm",
+    ],
+    techStack: ["HTML", "CSS", "JavaScript"],
+    challenges: [
+      "Optimizing backtracking performance",
+    ],
+    learnings: [
+      "Constraint solving techniques",
+    ],
+    feedback: true,
+    links: {
+      live: "https://varni1512.github.io/Sudoku-Solver/",
+      github: "https://github.com/Varni1512/Sudoku-Solver",
+    },
+  },
+
+  {
+    title: "OLA Data Analyst Dashboard",
+    slug: "ola-dashboard",
+    tagline:
+      "A data analytics dashboard providing insights into ride patterns and performance metrics.",
+    overview:
+      "This dashboard analyzes ride data using visual charts and trends. It helps understand performance metrics and user behavior through structured data visualization.",
+    features: [
+      "Data visualization",
+      "Interactive charts",
+      "Trend analysis",
+    ],
+    techStack: ["Power BI / Excel / SQL"],
+    challenges: [
+      "Handling large datasets",
+    ],
+    learnings: [
+      "Data analysis & visualization",
+    ],
+    feedback: true,
+    links: {
+      live: "https://app.powerbi.com/links/utnKqb8MDQ?ctid=09bd1956-edda-4e9a-9543-7c7aa2cf4e81&pbi_source=linkShare",
+      github: "https://github.com/Varni1512/OLA-Data-Analyst-Dashboard",
+    },
+  },
+
+  {
+    title: "IPL Data Analyst Dashboard",
+    slug: "ipl-dashboard",
+    tagline:
+      "An interactive dashboard analyzing IPL data with player and match performance insights.",
+    overview:
+      "IPL Dashboard visualizes match data, player statistics, and trends effectively. It provides insights into performance using structured analytics and interactive charts.",
+    features: [
+      "Player stats analysis",
+      "Match insights",
+      "Interactive charts",
+    ],
+    techStack: ["Power BI / Excel / SQL"],
+    challenges: [
+      "Cleaning and structuring sports data",
+    ],
+    learnings: [
+      "Sports analytics",
+    ],
+    feedback: true,
+    links: {
+      live: "https://app.powerbi.com/links/Ux-d5dHuBj?ctid=09bd1956-edda-4e9a-9543-7c7aa2cf4e81&pbi_source=linkShare",
+      github: "https://github.com/Varni1512/IPL",
     },
   },
 ];

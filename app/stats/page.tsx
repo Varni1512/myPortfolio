@@ -28,7 +28,7 @@ const StatCard = ({
       <h3 className="text-lg font-semibold tracking-tight card-title text-muted-foreground">
         {title}
       </h3>
-      <span className="text-5xl font-bold leading-tight tracking-tight card-value">
+      <span className="text-3xl font-bold leading-tight tracking-tight card-value">
         {value}
       </span>
     </div>
@@ -43,7 +43,7 @@ const Stats = async () => {
   const githubStatCards = [
     {
       title: "Hireable",
-      value: githubStats.hireable && "Yes",
+      value: githubStats.hireable ? "No" : "Yes",
       className: githubStats.hireable && "bg-green-500/20",
     },
     {
@@ -59,14 +59,15 @@ const Stats = async () => {
       value: githubStats.following,
     },
     {
-      title: "Current Company",
-      value: githubStats.company,
-    },
-    {
-      title: "Location",
-      value: githubStats.location,
-    },
+    title: "Current Company",
+    value: githubStats.company || "Not Mentioned",
+  },
+  {
+    title: "Location",
+    value: githubStats.location || "Not Mentioned",
+  },
   ];
+  
 
   return (
     <>

@@ -1,6 +1,6 @@
 export const siteConfig = {
   name: 'varni.is-dev',
-  url: 'https://aadi.is-a.dev',
+  url: 'https://varni-dev.vercel.app',
   description: 'Portfolio of Patel Varnikumar, Full-Stack Web Developer, System Design Learner & ML Enthusiast.',
   keywords: [
     'Patel Varnikumar',
