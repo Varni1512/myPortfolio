@@ -35,7 +35,7 @@ export const siteConfig = {
     github: 'https://github.com/Varni1512',
     githubProfile: 'https://github.com/Varni1512',
     linkedin: 'https://www.linkedin.com/in/varnikumarpatel/',
-    resume: 'https://drive.google.com/file/d/19yRW6SkUuEaO27fWpbXJsMB9mLHqFOCb/view?usp=sharing', // Add your resume link here
+    resume: 'https://drive.google.com/file/d/1tfiJbkvIDLxUtMp0ycSkvBQtiA-c_CUM/view?usp=sharing', 
     email: 'mailto:varni1505@gmail.com',
     githubUsername: 'Varni1512',
   },
