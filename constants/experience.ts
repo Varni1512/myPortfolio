@@ -4,22 +4,22 @@ export const experiences: TimelineViewerData[] = [
   {
     title: 'FOSSEE Summer Fellow ’26 (OSDAG Shortlisted) · IIT Bombay',
     date: 'May 2026 - Present',
-    description: `Shortlisted for the FOSSEE Summer Fellowship 2026 under OSDAG at IIT Bombay, contributing to open-source software development, technical research, and engineering-focused innovation.`,
+    description: `Worked on testing and improving a large-scale open-source web platform by identifying bugs, validating fixes, and ensuring a seamless user experience. Collaborated with mentors and contributors to maintain software quality, verify issue resolutions, and support ongoing platform enhancements. This experience strengthened my skills in software testing, quality assurance, and open-source collaboration.`,
     latest: true,
   },
   {
     title: 'Amazon ML Summer School 2025',
     date: 'Aug. 2025',
-    description: `Selected for Amazon ML Summer School 2025, where I gained advanced knowledge in machine learning, AI systems, and practical industry-level problem-solving through expert-led training.`,
+    description: `Selected for a highly competitive machine learning program, where I learned fundamental ML concepts and their real-world applications through expert-led sessions. Worked on implementing machine learning algorithms and hands-on exercises using Python, while gaining exposure to industry practices, problem-solving approaches, and modern machine learning workflows.`,
   },
   {
     title: 'Full Stack Web Developer Intern · Mittal Alliance Industries Private Limited',
     date: 'May 2025 - Jan. 2026',
-    description: `Developed scalable MERN-based applications, designed high-performance React interfaces, collaborated with cross-functional teams, and led development workflows to deliver production-ready solutions efficiently.`,
+    description: `Contributed to the development and maintenance of responsive web applications, focusing on creating intuitive user interfaces and improving overall user experience. Collaborated with team members to implement new features, integrate APIs, and optimize application performance. Gained hands-on experience in modern web development practices, teamwork, and real-world project delivery.`,
   },
   {
     title: 'Software Engineer Intern · BADVERSE',
     date: 'Feb. 2025 - Apr. 2025',
-    description: `Built and optimized scalable software modules, improved system architecture, enhanced API and database performance, and resolved critical production challenges through efficient engineering practices.`,
+    description: `Contributed to both frontend and backend development of web applications, working on feature implementation, bug fixes, and overall system improvements. Gained hands-on experience with APIs, databases, and modern web technologies while participating in testing, debugging, and deployment processes. Collaborated with team members to build and deliver reliable, scalable software solutions in a professional development environment.`,
   },
 ];
