@@ -1,5 +1,36 @@
 export const projects = [
   {
+    title: "TicketVerse - Distributed Ticket Booking Platform",
+    slug: "ticketverse",
+    tagline:
+      "A distributed ticket booking platform with real-time availability and seamless user experience.",
+    overview:
+      "CompileVerse enables real-time code execution with AI-driven review and insights. It enhances coding efficiency through intelligent feedback and integrated development tools.",
+    features: [
+      "Multi-language compiler (C++, Java, Python)",
+      "Monaco Editor integration",
+      "AI code review system",
+      "Complexity analysis",
+      "Real-time output",
+    ],
+    techStack: ["React", "Node.js", "Express", "Monaco Editor", "Gemini API"],
+    challenges: [
+      "Handling secure code execution",
+      "Integrating AI-based analysis",
+      "Managing backend execution environment",
+    ],
+    learnings: [
+      "Working with compilers & execution APIs",
+      "AI integration in developer tools",
+      "Editor integrations (Monaco)",
+    ],
+    feedback: true,
+    links: {
+      live: "https://compileverse.vercel.app/",
+      github: "https://github.com/Varni1512/CompileVerse",
+    },
+  },
+  {
     title: "CompileVerse - AI Code Compiler",
     slug: "compileverse",
     tagline:
