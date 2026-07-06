@@ -5,7 +5,7 @@ export const projects = [
     tagline:
       "A distributed ticket booking platform with real-time availability and seamless user experience.",
     overview:
-      "CompileVerse enables real-time code execution with AI-driven review and insights. It enhances coding efficiency through intelligent feedback and integrated development tools.",
+      "TicketVerse provides a decentralized solution for ticket booking, ensuring transparency and efficiency in the process. It leverages blockchain technology for secure transactions and real-time updates.",
     features: [
       "Multi-language compiler (C++, Java, Python)",
       "Monaco Editor integration",
