@@ -7,11 +7,10 @@ export const projects = [
     overview:
       "TicketVerse provides a decentralized solution for ticket booking, ensuring transparency and efficiency in the process. It leverages blockchain technology for secure transactions and real-time updates.",
     features: [
-      "Multi-language compiler (C++, Java, Python)",
-      "Monaco Editor integration",
-      "AI code review system",
-      "Complexity analysis",
-      "Real-time output",
+      "Real-time ticket availability",
+      "Decentralized booking system",
+      "User-friendly interface",
+      "Secure payment gateway",
     ],
     techStack: ["React", "Node.js", "Express", "Monaco Editor", "Gemini API"],
     challenges: [
