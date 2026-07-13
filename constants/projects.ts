@@ -1,5 +1,36 @@
 export const projects = [
   {
+    title: "CompileVerse - AI Code Compiler",
+    slug: "compileverse",
+    tagline:
+      "An AI-powered online compiler supporting multiple languages with smart code analysis.",
+    overview:
+      "CompileVerse enables real-time code execution with AI-driven review and insights. It enhances coding efficiency through intelligent feedback and integrated development tools.",
+    features: [
+      "Multi-language compiler (C++, Java, Python)",
+      "Monaco Editor integration",
+      "AI code review system",
+      "Complexity analysis",
+      "Real-time output",
+    ],
+    techStack: ["React", "Node.js", "Express", "Monaco Editor", "Gemini API"],
+    challenges: [
+      "Handling secure code execution",
+      "Integrating AI-based analysis",
+      "Managing backend execution environment",
+    ],
+    learnings: [
+      "Working with compilers & execution APIs",
+      "AI integration in developer tools",
+      "Editor integrations (Monaco)",
+    ],
+    feedback: true,
+    links: {
+      live: "https://compileverse.vercel.app/",
+      github: "https://github.com/Varni1512/CompileVerse",
+    },
+  },
+  {
     title: "Recruit Sphere - Hiring System",
     slug: "recruit-sphere",
     tagline:
@@ -24,7 +55,6 @@ export const projects = [
       github: "https://github.com/Varni1512/Recruit_Sphere",
     },
   },
-
   {
     title: "KisanHub - Smart Agriculture Marketplace",
     slug: "kisanhub",
@@ -89,37 +119,7 @@ export const projects = [
     },
   },
 
-  {
-    title: "CompileVerse - AI Code Compiler",
-    slug: "compileverse",
-    tagline:
-      "An AI-powered online compiler supporting multiple languages with smart code analysis.",
-    overview:
-      "CompileVerse enables real-time code execution with AI-driven review and insights. It enhances coding efficiency through intelligent feedback and integrated development tools.",
-    features: [
-      "Multi-language compiler (C++, Java, Python)",
-      "Monaco Editor integration",
-      "AI code review system",
-      "Complexity analysis",
-      "Real-time output",
-    ],
-    techStack: ["React", "Node.js", "Express", "Monaco Editor", "Gemini API"],
-    challenges: [
-      "Handling secure code execution",
-      "Integrating AI-based analysis",
-      "Managing backend execution environment",
-    ],
-    learnings: [
-      "Working with compilers & execution APIs",
-      "AI integration in developer tools",
-      "Editor integrations (Monaco)",
-    ],
-    feedback: true,
-    links: {
-      live: "https://online-compiler-khaki.vercel.app/",
-      github: "https://github.com/Varni1512/OC-frontend",
-    },
-  },
+  
 
   {
     title: "MediTalk - AI Healthcare Platform",

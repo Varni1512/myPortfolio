@@ -1,5 +1,6 @@
 import { 
   SiFirebase, 
+  SiSpringboot,
   SiDotnet, 
   SiPython, 
   SiMysql,
@@ -242,4 +243,6 @@ export const Icons = {
   pandas: (props: IconProps) => <SiPandas {...(props as any)} color="#150458" />,
   scikitlearn: (props: IconProps) => <SiScikitlearn {...(props as any)} color="#F7931E" />,
   tensorflow: (props: IconProps) => <SiTensorflow {...(props as any)} color="#FF6F00" />,
+  springboot: (props: IconProps) => (<SiSpringboot {...props} color="#6DB33F" />
+  ),
 };

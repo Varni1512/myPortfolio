@@ -2,6 +2,11 @@ import { TimelineViewerData } from '@/types/TimelineViewer.types';
 
 export const experiences: TimelineViewerData[] = [
   {
+    title: 'Amazon ML Summer School 2026',
+    date: 'Aug. 2026',
+    description: `Selected for a highly competitive machine learning program, where I learned fundamental ML concepts and their real-world applications through expert-led sessions. Worked on implementing machine learning algorithms and hands-on exercises using Python, while gaining exposure to industry practices, problem-solving approaches, and modern machine learning workflows.`,
+  },
+  {
     title: 'FOSSEE Summer Fellow ’26 (OSDAG Shortlisted) · IIT Bombay',
     date: 'May 2026 - Present',
     description: `Worked on testing and improving a large-scale open-source web platform by identifying bugs, validating fixes, and ensuring a seamless user experience. Collaborated with mentors and contributors to maintain software quality, verify issue resolutions, and support ongoing platform enhancements. This experience strengthened my skills in software testing, quality assurance, and open-source collaboration.`,
