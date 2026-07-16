@@ -12,7 +12,7 @@ export const projects = [
       "User-friendly interface",
       "Secure payment gateway",
     ],
-    techStack: ["React", "Node.js", "Express", "Monaco Editor", "Gemini API"],
+    techStack: ["React", "Spring Boot", "PostgreSQL", "Redis", "WebSocket", "Apache Kafka"],
     challenges: [
       "Handling secure code execution",
       "Integrating AI-based analysis",
