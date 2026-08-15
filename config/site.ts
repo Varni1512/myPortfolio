@@ -1,6 +1,6 @@
 export const siteConfig = {
   name: 'varni.is-dev',
-  url: 'https://varni-dev.vercel.app',
+  url: 'https://www.codewithvarni.app',
   description: 'Portfolio of Patel Varnikumar, Full-Stack Web Developer, System Design Learner & ML Enthusiast.',
   keywords: [
     'Patel Varnikumar',
@@ -34,8 +34,8 @@ export const siteConfig = {
     twitter: 'https://x.com/varni1512',
     github: 'https://github.com/Varni1512',
     githubProfile: 'https://github.com/Varni1512',
-    linkedin: 'https://www.linkedin.com/in/varnikumarpatel/',
-    resume: 'https://drive.google.com/file/d/1tfiJbkvIDLxUtMp0ycSkvBQtiA-c_CUM/view?usp=sharing', 
+    linkedin: 'https://www.linkedin.com/in/varni1512/',
+    resume: 'https://drive.google.com/file/d/1OlolmtW8bIiorlOP4YKQNwwLMKtc9OKZ/view?usp=sharing', 
     email: 'mailto:varni1505@gmail.com',
     githubUsername: 'Varni1512',
   },

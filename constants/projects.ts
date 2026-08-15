@@ -1,32 +1,43 @@
 export const projects = [
   {
-    title: "TicketVerse - Distributed Ticket Booking Platform",
-    slug: "ticketverse",
+    title: "ArchMind - AI System Design Platform",
+    slug: "archmind",
     tagline:
-      "A distributed ticket booking platform with real-time availability and seamless user experience.",
+      "An AI-powered system design platform for designing, validating, and understanding scalable software architectures.",
     overview:
-      "TicketVerse provides a decentralized solution for ticket booking, ensuring transparency and efficiency in the process. It leverages blockchain technology for secure transactions and real-time updates.",
+      "ArchMind helps developers design scalable systems through interactive HLD and LLD diagrams, AI-powered architecture generation, validation, code generation, and intelligent guidance for system design decisions.",
     features: [
-      "Real-time ticket availability",
-      "Decentralized booking system",
-      "User-friendly interface",
-      "Secure payment gateway",
+      "Interactive HLD & LLD architecture canvas",
+      "AI-powered system architecture generation",
+      "Architecture validation and design suggestions",
+      "LLD code generation",
+      "Diagram-based AI question answering",
+      "Difficulty-based system design generation",
+      "AI system design mentor",
+      "Approximate cloud cost estimation for services like Redis and S3",
     ],
-    techStack: ["React", "Spring Boot", "PostgreSQL", "Redis", "WebSocket", "Apache Kafka"],
+    techStack: [
+      "Next.js",
+      "TypeScript",
+      "MongoDB",
+      "Groq API",
+    ],
     challenges: [
-      "Handling secure code execution",
-      "Integrating AI-based analysis",
-      "Managing backend execution environment",
+      "Designing an interactive canvas for complex system architectures",
+      "Generating consistent and scalable architectures using AI",
+      "Validating system designs and maintaining relationships between components",
+      "Converting high-level architecture into detailed low-level designs and code",
     ],
     learnings: [
-      "Working with compilers & execution APIs",
-      "AI integration in developer tools",
-      "Editor integrations (Monaco)",
+      "Understanding and implementing HLD and LLD system design concepts",
+      "Building AI-powered developer tools using LLM APIs",
+      "Designing interactive architecture visualization systems",
+      "Applying scalability, reliability, and cost considerations to system design",
     ],
     feedback: true,
     links: {
-      live: "https://compileverse.vercel.app/",
-      github: "https://github.com/Varni1512/CompileVerse",
+      live: "https://archmind.codewithvarni.app/",
+      github: "https://github.com/Varni1512/ArchMind",
     },
   },
   {
@@ -56,7 +67,7 @@ export const projects = [
     ],
     feedback: true,
     links: {
-      live: "https://compileverse.vercel.app/",
+      live: "https://compileverse.codewithvarni.app/",
       github: "https://github.com/Varni1512/CompileVerse",
     },
   },
@@ -146,39 +157,6 @@ export const projects = [
     links: {
       live: "https://macbook-sigma.vercel.app/",
       github: "https://github.com/Varni1512/Macbook",
-    },
-  },
-
-  
-
-  {
-    title: "MediTalk - AI Healthcare Platform",
-    slug: "meditalk",
-    tagline:
-      "An AI-powered healthcare platform offering voice consultation and smart diagnosis features.",
-    overview:
-      "MediTalk provides real-time voice consultations with AI-based symptom analysis. It ensures accessible healthcare support with automated prescriptions and continuous availability.",
-    features: [
-      "Voice-based consultation system",
-      "AI symptom analysis",
-      "Automated prescription generation",
-      "24/7 accessibility",
-    ],
-    techStack: ["Next.js", "React", "Gemini API", "Vapi API", "Assembly AI"],
-    challenges: [
-      "Handling real-time voice processing",
-      "Ensuring accuracy in AI predictions",
-      "Managing API integrations",
-    ],
-    learnings: [
-      "Voice AI integration",
-      "Healthcare AI system design",
-      "Multi-API orchestration",
-    ],
-    feedback: true,
-    links: {
-      live: "https://swasthyasathi.vercel.app/",
-      github: "https://github.com/Varni1512/SwasthyaSathi",
     },
   },
 

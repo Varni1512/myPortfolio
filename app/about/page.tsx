@@ -11,7 +11,7 @@ const AboutMePage = () => {
       <PageHeader>
         <PageHeaderHeading>About Varnikumar</PageHeaderHeading>
         <PageHeaderHeading className="mt-2 text-muted-foreground">
-          More than just a title—let’s dive deeper!
+          More than just a title — let’s dive deeper!
         </PageHeaderHeading>
         <PageHeaderDescription>
           I am a passionate Software Engineer with a knack for building

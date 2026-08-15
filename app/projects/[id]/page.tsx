@@ -130,7 +130,7 @@ const ProjectDetails = async ({
               {project.links.live && (
                 <Link href={project.links.live} target="_blank">
                   <Badge variant="default" className="px-4 text-base">
-                    Live <ExternalLinkIcon className="w-4 h-4 -mt-2" />
+                    Live <ExternalLinkIcon className="w-4 h-4 " />
                   </Badge>
                 </Link>
               )}
@@ -138,7 +138,7 @@ const ProjectDetails = async ({
               {project.links.github && (
                 <Link href={project.links.github} target="_blank">
                   <Badge variant="outline" className="px-4 text-base">
-                    Github <ExternalLinkIcon className="w-4 h-4 -mt-2" />
+                    Github <ExternalLinkIcon className="w-4 h-4 " />
                   </Badge>
                 </Link>
               )}

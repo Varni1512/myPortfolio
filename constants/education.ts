@@ -3,7 +3,7 @@ import { TimelineViewerData } from '@/types/TimelineViewer.types';
 export const education: TimelineViewerData[] = [
   {
     title:
-      'B.Tech in Computer Science and Engineering (AI & ML) · VIT Bhopal University · Bhopal, India  (7.9 / 10 CGPA)',
+      'B.Tech in Computer Science and Engineering (AI & ML) · VIT Bhopal University · Bhopal, India  (7.91 / 10 CGPA)',
     date: '2023 – 2027 (Expected)',
     description: `Pursuing B.Tech with a focus on Artificial Intelligence, Machine Learning, full-stack development, and core computer science subjects.`,
   },

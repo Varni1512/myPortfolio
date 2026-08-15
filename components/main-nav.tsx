@@ -34,7 +34,7 @@ export function MainNav() {
 
         <Link
           target="_blank"
-          href="https://www.linkedin.com/in/varnikumarpatel"
+          href="https://www.linkedin.com/in/varni1512"
           className="group flex items-center gap-1.5 text-muted-foreground transition-colors hover:text-foreground"
         >
           LinkedIn
