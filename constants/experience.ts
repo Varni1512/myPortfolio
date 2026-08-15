@@ -2,26 +2,25 @@ import { TimelineViewerData } from '@/types/TimelineViewer.types';
 
 export const experiences: TimelineViewerData[] = [
   {
-    title: 'FOSSEE Semester Long Internship - Autumn 2026 (OSDAG Shortlisted) · IIT Bombay',
+    title: 'Osdag Semester-Long Intern · Osdag, IIT Bombay',
     date: 'Jul, 2026 - Present',
-    description: `Worked on testing and improving a large-scale open-source web platform by identifying bugs, validating fixes, and ensuring a seamless user experience. Collaborated with mentors and contributors to maintain software quality, verify issue resolutions, and support ongoing platform enhancements. This experience strengthened my skills in software testing, quality assurance, and open-source collaboration.`,
+    description: `Currently contributing to the 3psLCCA web project by testing and improving its user interface, identifying UI and functional issues, and implementing fixes to enhance usability and reliability. Working with the existing codebase to validate changes, resolve bugs, and improve the overall user experience while contributing to an open-source project at IIT Bombay.`,
     latest: true,
   },
   {
     title: 'Amazon ML Summer School 2026',
     date: 'Jul, 2026 - Aug, 2026',
-    description: `Selected for a highly competitive machine learning program, where I learned fundamental ML concepts and their real-world applications through expert-led sessions. Worked on implementing machine learning algorithms and hands-on exercises using Python, while gaining exposure to industry practices, problem-solving approaches, and modern machine learning workflows.`,
+    description: `Selected for Amazon ML Summer School 2026 and further advanced my understanding of machine learning through deeper exposure to modern ML techniques, model development, and practical problem-solving. Worked through hands-on exercises and industry-oriented sessions, building on the concepts and experience gained from the 2025 program.`,
   },
   {
-    title: 'FOSSEE Summer Fellow ’26 (OSDAG Shortlisted) · IIT Bombay',
+    title: 'FOSSEE Summer Fellow ’26 · Osdag, IIT Bombay',
     date: 'May 2026 - Jul, 2026',
     description: `Worked on testing and improving a large-scale open-source web platform by identifying bugs, validating fixes, and ensuring a seamless user experience. Collaborated with mentors and contributors to maintain software quality, verify issue resolutions, and support ongoing platform enhancements. This experience strengthened my skills in software testing, quality assurance, and open-source collaboration.`,
-    latest: true,
   },
   {
     title: 'Amazon ML Summer School 2025',
     date: 'Aug. 2025',
-    description: `Selected for a highly competitive machine learning program, where I learned fundamental ML concepts and their real-world applications through expert-led sessions. Worked on implementing machine learning algorithms and hands-on exercises using Python, while gaining exposure to industry practices, problem-solving approaches, and modern machine learning workflows.`,
+    description: `Selected for Amazon ML Summer School 2025, gaining a strong foundation in machine learning through expert-led sessions covering core ML concepts, algorithms, and practical applications. Strengthened understanding through hands-on Python exercises and explored how machine learning techniques are applied to real-world problems.`,
   },
   {
     title: 'Full Stack Web Developer Intern · Mittal Alliance Industries Private Limited',

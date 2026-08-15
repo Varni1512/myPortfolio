@@ -41,14 +41,14 @@ export function MainNav() {
           <ExternalLink className="h-3 w-3 transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5" />
         </Link>
 
-        <Link
+        <a
           href={siteConfig.links.resume}
           target="_blank"
           className="group flex items-center gap-1.5 text-muted-foreground transition-colors hover:text-foreground"
         >
           Resume
           <ExternalLink className="h-3 w-3 transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5" />
-        </Link>
+        </a>
       </nav>
     </div>
   );
