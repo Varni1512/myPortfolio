@@ -4,7 +4,7 @@ import { LenisProvider } from '@/components/providers/lenis-provider';
 import 'lenis/dist/lenis.css';
 
 import { GoogleAnalytics } from '@next/third-parties/google';
-import { Analytics } from '@vercel/analytics/next';
+import { Analytics } from '@vercel/analytics/react';
 
 import { fontSans, fontMono } from '@/lib/fonts';
 import { Toaster } from '@/components/ui/sonner';
