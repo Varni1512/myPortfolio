@@ -1,6 +1,6 @@
 export const siteConfig = {
   name: 'varni.is-dev',
-  url: 'https://www.codewithvarni.app',
+  url: 'https://www.vkpatel.in',
   description: 'Portfolio of Patel Varnikumar, Full-Stack Web Developer, System Design Learner & ML Enthusiast.',
   keywords: [
     'Patel Varnikumar',
@@ -35,7 +35,7 @@ export const siteConfig = {
     github: 'https://github.com/Varni1512',
     githubProfile: 'https://github.com/Varni1512',
     linkedin: 'https://www.linkedin.com/in/varni1512/',
-    resume: 'https://resume.codewithvarni.app/', 
+    resume: 'https://resume.vkpatel.in/', 
     email: 'mailto:varni1505@gmail.com',
     githubUsername: 'Varni1512',
   },

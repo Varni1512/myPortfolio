@@ -36,7 +36,7 @@ export const projects = [
     ],
     feedback: true,
     links: {
-      live: "https://archmind.codewithvarni.app/",
+      live: "https://archmind.vkpatel.in/",
       github: "https://github.com/Varni1512/ArchMind",
     },
   },
@@ -67,7 +67,7 @@ export const projects = [
     ],
     feedback: true,
     links: {
-      live: "https://compileverse.codewithvarni.app/",
+      live: "https://compileverse.vkpatel.in/",
       github: "https://github.com/Varni1512/CompileVerse",
     },
   },
