@@ -14,22 +14,15 @@ const AboutMePage = () => {
           More than just a title — let’s dive deeper!
         </PageHeaderHeading>
         <PageHeaderDescription>
-          I am a passionate Software Engineer with a knack for building
-          full-stack web applications using modern technologies like React.js, Next.js and
-          Tailwind CSS. My journey in tech began with a curiosity for solving
-          real-world problems through innovative solutions, which evolved into a
-          love for crafting user-centric digital experiences.
+          I am a passionate Full-Stack Engineer and Generative AI developer with a knack for building robust, scalable applications. My core expertise spans the modern web ecosystem — particularly the MERN stack (MongoDB, Express.js, React, Node.js) and Next.js — paired with hands-on experience in architecting intelligent systems using modern AI technologies.
         </PageHeaderDescription>
 
         <PageHeaderDescription>
-          With a strong foundation in JavaScript frameworks, I focus on creating scalable, efficient, and visually appealing applications. Currently, I am diving deeper into backend development with Node.js and Express to expand my skill set and deliver powerful, server-side solutions.
+          I specialize in building intelligent AI-driven applications using LLMs, LangChain, RAG (Retrieval-Augmented Generation), and Vector Databases, seamlessly integrating them into full-stack ecosystems. Additionally, I have a solid grasp of System Design — covering both Low-Level Design (LLD) and High-Level Design (HLD) — ensuring solutions are modular, fault-tolerant, and built to scale.
         </PageHeaderDescription>
 
         <PageHeaderDescription>
-          Beyond coding, I thrive in collaborative environments and enjoy
-          tackling challenging problems with creative solutions. I aim to
-          contribute to impactful projects that make a difference in users'
-          lives.
+          Beyond writing code, I thrive in collaborative environments, continuously exploring cutting-edge tech, tackling challenging engineering problems, and building impactful digital products that create real value for users.
         </PageHeaderDescription>
       </PageHeader>
 

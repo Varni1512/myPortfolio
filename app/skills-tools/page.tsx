@@ -17,7 +17,7 @@ const SkillsToolsPage = () => {
           Learned by coding all night and debugging all day!
         </PageHeaderHeading>
         <PageHeaderDescription>
-          As a full-stack Software Engineer, I specialize in building scalable web applications using modern technologies such as Next.js, React, and Tailwind CSS. I also have knowledge of system design and foundational machine learning, enabling me to create efficient, maintainable, and robust software solutions.
+          As a Full-Stack &amp; Generative AI Engineer, I specialize in building scalable web applications with the MERN stack and Next.js, alongside architecting intelligent AI systems using LLMs, LangChain, RAG, and Vector Databases. With a solid grounding in System Design (LLD &amp; HLD), I focus on writing efficient, clean, and production-ready code.
         </PageHeaderDescription>
       </PageHeader>
 

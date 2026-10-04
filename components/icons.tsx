@@ -8,7 +8,9 @@ import {
   SiNumpy,
   SiPandas,
   SiScikitlearn,
-  SiTensorflow
+  SiTensorflow,
+  SiLangchain,
+  SiOpenai
 } from "react-icons/si";
 import { FaJava, FaAws } from "react-icons/fa6"; // Or "react-icons/fa" if fa6 doesn't work
 
@@ -244,5 +246,74 @@ export const Icons = {
   scikitlearn: (props: IconProps) => <SiScikitlearn {...(props as any)} color="#F7931E" />,
   tensorflow: (props: IconProps) => <SiTensorflow {...(props as any)} color="#FF6F00" />,
   springboot: (props: IconProps) => (<SiSpringboot {...props} color="#6DB33F" />
+  ),
+  langchain: (props: IconProps) => <SiLangchain {...props} color="#00A67E" />,
+  llm: (props: IconProps) => <SiOpenai {...props} color="#10A37F" />,
+  rag: (props: IconProps) => (
+    <svg
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      {...props}
+    >
+      <title>RAG</title>
+      <path
+        d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H19a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1H6.5a2.5 2.5 0 0 1-2.5-2.5Z"
+        stroke="#8B5CF6"
+      />
+      <path d="M8 7h6" stroke="#8B5CF6" />
+      <path d="M8 11h4" stroke="#8B5CF6" />
+      <circle cx="14" cy="14" r="3" stroke="#EC4899" />
+      <path d="m16.5 16.5 3.5 3.5" stroke="#EC4899" />
+      <path d="M14 4v-1.5M16 5.5l1-1" stroke="#F59E0B" />
+    </svg>
+  ),
+  vectorDb: (props: IconProps) => (
+    <svg
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      {...props}
+    >
+      <title>Vector DBs</title>
+      <ellipse cx="12" cy="5" rx="9" ry="3" stroke="#06B6D4" />
+      <path d="M3 5v14c0 1.66 4.03 3 9 3s9-1.34 9-3V5" stroke="#06B6D4" />
+      <path d="M3 12c0 1.66 4.03 3 9 3s9-1.34 9-3" stroke="#06B6D4" />
+      <circle cx="9" cy="12" r="1.5" fill="#3B82F6" stroke="#3B82F6" />
+      <circle cx="15" cy="10" r="1.5" fill="#8B5CF6" stroke="#8B5CF6" />
+      <circle cx="12" cy="17" r="1.5" fill="#EC4899" stroke="#EC4899" />
+      <path d="m9 12 3 5 3-7" stroke="#8B5CF6" strokeDasharray="1.5 1.5" />
+    </svg>
+  ),
+  promptEngineering: (props: IconProps) => (
+    <svg
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      {...props}
+    >
+      <title>Prompt Engineering</title>
+      <path d="m4 6 5 5-5 5" stroke="#F59E0B" />
+      <path d="M12 16h4" stroke="#F59E0B" />
+      <path
+        d="m19 4 1 2 2 1-2 1-1 2-1-2-2-1 2-1Z"
+        fill="#F59E0B"
+        stroke="#F59E0B"
+      />
+      <path
+        d="m20 15 .5 1 1 .5-1 .5-.5 1-.5-1-1-.5 1-.5Z"
+        fill="#F59E0B"
+        stroke="#F59E0B"
+      />
+    </svg>
   ),
 };

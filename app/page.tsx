@@ -16,10 +16,10 @@ const IntroductionPage = async () => {
       <PageHeader>
         <PageHeaderHeading>Patel Varnikumar Rajendrakumar</PageHeaderHeading>
         <PageHeaderHeading className="mt-2 text-muted-foreground">
-          A coder by day, problem-solver by night!
+         Engineering scalable systems. Deploying production AI.
         </PageHeaderHeading>
         <PageHeaderDescription>
-          I am a dedicated Software Engineer specializing in full-stack application development, with knowledge of system design and foundational machine learning. I enjoy crafting responsive web solutions using modern technologies like Next.js, React, Tailwind CSS, Node.js, Express, and MongoDB, while continuously aiming to deliver high-quality, comprehensive, user-centric software solutions.
+          I design and build high-concurrency web architectures and context-aware AI systems. Backed by solid foundations in System Design (HLD &amp; LLD), I take products from schema design to scale using Next.js & MERN, while integrating enterprise-grade RAG pipelines, LangChain, and Vector DBs that actually work in production.
         </PageHeaderDescription>
         <PageActions>
           <Button asChild size="sm" className="rounded-md">
