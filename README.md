@@ -4,13 +4,6 @@
 
 Personal portfolio of **Varnikumar Patel** — Software Developer & AI Forward Deployed Engineer. Built with modern React, Vite, and Tailwind CSS.
 
-## 🚀 Tech Stack
-
-- **Framework**: React 18
-- **Tooling**: Vite
-- **Styling**: Vanilla CSS (Custom Design System) & Tailwind CSS v4
-- **Icons**: Custom SVG & Lucide Icons
-- **Routing**: React Router v6
 
 ## 🛠️ Getting Started
 
