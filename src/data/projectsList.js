@@ -12,7 +12,7 @@ export const projectsList = [
     date: '2026',
     slug: 'PeopleNexus',
     tagline: 'Agentic RAG-powered HR support copilot with intelligent policy retrieval, AI-driven responses, and web search using Pinecone.',
-    url: 'https://peoplenexus.vkpatel.in/',
+    url: 'https://peoplenexus.vercel.app/',
     repo: 'https://github.com/Varni1512/PeopleNexus',
     highlight: true,
   },
