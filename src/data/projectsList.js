@@ -1,5 +1,13 @@
 export const projectsList = [
   {
+    name: 'ColdPilot',
+    date: '2026',
+    slug: 'ColdPilot',
+    tagline: 'AI-powered cold-chain platform for compliance monitoring, congestion analysis, and intelligent rerouting using LangGraph.',
+    repo: 'https://github.com/Varni1512/cold-chain-logistics',
+    highlight: true,
+  },
+  {
     name: 'PeopleNexus',
     date: '2026',
     slug: 'PeopleNexus',
@@ -24,7 +32,7 @@ export const projectsList = [
     tagline: 'An AI-powered system design platform for designing, validating, and understanding scalable software architectures.',
     url: 'https://archmind.vkpatel.in/',
     repo: 'https://github.com/Varni1512/ArchMind',
-    highlight: true,
+    highlight: false,
   },
   {
     name: 'N-Queens Visualizer',
