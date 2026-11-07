@@ -5,6 +5,7 @@ export const projectsList = [
     slug: 'ColdPilot',
     tagline: 'AI-powered cold-chain platform for compliance monitoring, congestion analysis, and intelligent rerouting using LangGraph.',
     repo: 'https://github.com/Varni1512/cold-chain-logistics',
+    url: 'http://coldpilot.vkpatel.in/',
     highlight: true,
   },
   {
